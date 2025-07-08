@@ -1,0 +1,178 @@
+/* The code below puts the title of the website in the center */
+.title { 
+    text-align: left; 
+}
+
+/* The code below adds a white background-color and black text color for the body of the page. */
+body {  background-image: url('Spacebg.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size:300px ;
+
+
+    color: #8F00FF;
+    text-align: left;
+    background-color: rgb(238, 237, 246);
+    font-family:monospace;
+
+}
+
+
+/* The code below adds a black background-color and white text color for each section heading. */
+.section {
+    color:rgb(236, 229, 235);
+    background-color: #8F00FF;
+    font-size: 15px;
+   font-family:monospace;
+   text-align: center;
+}
+.sidenav {
+  height: 17%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 1px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #939191;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+    color: white;
+    overflow-x: hidden;
+}
+
+.content {
+    height: 200vh; /* Make page scrollable */
+    position: relative;
+    z-index: 10;
+    padding: 50px;
+   
+}
+
+.section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 50px 0;
+    border-radius: 20px;
+
+   
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+    color: white;
+    overflow-x: hidden;
+}
+
+.content {
+    height: 200vh; /* Make page scrollable */
+    position: relative;
+    z-index: 10;
+    padding: 50px;
+}
+
+.section {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background: rgba(82, 78, 78, 0.3);
+    margin: 50px 0;
+    border-radius: 50px;
+}
+
+/* Parallax elements */
+.parallax-layer {
+    position: fixed;
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.planet-1 {
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle at 30% 30%, #ff6b6b, #c44569);
+    top: 10%;
+    right: 10%;
+}
+
+.planet-2 {
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle at 30% 30%, #4834d4, #686de0);
+    top: 60%;
+    left: 5%;
+}
+
+.planet-3 {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at 30% 30%, #00d2d3, #54a0ff);
+    top: 30%;
+    right: 20%;
+}
+
+.star-layer {
+    position: fixed;
+    width: 4px;
+    height: 4px;
+    background: white;
+    border-radius: 50
+}
+
+.star-1 { top: 20%; left: 15%; }
+.star-2 { top: 40%; left: 80%; }
+.star-3 { top: 70%; left: 25%; }
+.star-4 { top: 15%; left: 60%; }
+.star-5 { top: 80%; left: 70%; }
+
+/* Scroll indicator */
+.scroll-indicator {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
