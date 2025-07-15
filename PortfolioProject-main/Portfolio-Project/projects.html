@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <link rel="icon" href="favicon.3" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - My Past Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
+        <link rel="stylesheet" href="projects.js">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+ <div class="sidenav">
+        <a href="#"><a href="index.html">Home</a></a>
+        <a href="#"> <a href="about.html">About Me</a></a>
+        <a href="#"><a href="projects.html">Projects</a></a>
+        <a href="#"><a href="Contact Me.html">Contact Me</a></a>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="parallax-layer planet-1"></div>
+    <div class="parallax-layer planet-2"></div>
+    <div class="parallax-layer planet-3"></div>
+
+    <div class="star-layer star-1"></div>
+    <div class="star-layer star-2"></div>
+    <div class="star-layer star-3"></div>
+    <div class="star-layer star-4"></div>
+    <div class="star-layer star-5"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <header class="header">
+            <h1>My Past Projects</h1>
+            <p>Showcasing my passion for creating innovative solutions and interactive experiences 🎮</p>
+        </header>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" onclick="filterProjects('all')">Unity</button>
+            <button class="filter-btn" onclick="filterProjects('web')">Web Development</button>
+            <button class="filter-btn" onclick="filterProjects('mobile')">UI/UX</button>
+            <button class="filter-btn" onclick="filterProjects('design')">Design</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+
+            <!-- Project Card 1 -->
+            <div class="project-card fade-in" data-category="web" style="animation-delay: 0.1s">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">The Fight Against Racism</h3>
+                    <p class="project-description">An informative website built with HTML and CSS that started my coding
+                        journey.</p>
+                    <div class="project-tags">
+                        <span class="tag">CSS</span>
+                        <span class="tag">HTML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://wantingewe2.github.io/The-Fight-Against-Racism/Unit%202%20Project/index.html" class="project-link link-secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card fade-in" data-category="mobile" style="animation-delay: 0.2s">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">3d Space Station Environment
+                        
+                    </h3>
+                    <p class="project-description">Unity title made to show my About Me page on my portfoio website.</p>
+                    <div class="project-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">Unity Webgl</span>
+                        <span class="tag">Html</span>
+                                                <span class="tag">Js</span>
+
+                    </div>
+                    <div class="project-links">
+                        <a href="https://wanting-ewe2.itch.io/test-portfolio" class="project-link link-primary">Itch.io</a>
+                        <a href="https://github.com/Wantingewe2" class="project-link link-secondary">Github</a>
+                    </div>
+   <div class="project-card fade-in" data-category="mobile" style="animation-delay: 0.2s">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Sources
+                        
+                    </h3>
+                    <p class="project-description">Chatgpt.com, W3schools.com, Google.com, Unity.com </p>
+                    <div class="project-tags">
+                    
+
+                    </div>
+                    </div>            
+
+           
+    <!-- Scripts -->
+    <script src="about.js"></script>
+    <script src="projects.js"></script>
+</body>
+
+</html>
